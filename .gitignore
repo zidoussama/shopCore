@@ -1,0 +1,53 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# Java / Maven / generated artifacts
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Node / Vite / TypeScript
+**/node_modules/
+**/dist/
+**/.vite/
+*.tsbuildinfo
+coverage/
+**/coverage/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.factorypath
+
+# Reports / logs / temporary files
+**/surefire-reports/
+**/failsafe-reports/
+test-results/
+playwright-report/
+*.log
+*.tmp
+*.swp
+*.swo
+.cache/
+tmp/
+temp/
+
+# Operating systems
+.DS_Store
+Thumbs.db
+Desktop.ini
